@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RealDXT OS - Gaming Toolkit</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --accent: #58a6ff;
+            --text: #c9d1d9;
+            --hover: #1f242c;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid var(--accent);
+            width: 100%;
+            max-width: 800px;
+            padding-bottom: 10px;
+        }
+
+        h1 { margin: 0; color: var(--accent); letter-spacing: 2px; }
+        p { opacity: 0.8; font-size: 0.9em; }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .section-title {
+            font-size: 1.2em;
+            margin: 20px 0 10px;
+            color: var(--accent);
+            text-transform: uppercase;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color: var(--card-bg);
+            border: 1px solid #30363d;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            display: block;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: var(--hover);
+            border-color: var(--accent);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(88, 166, 255, 0.2);
+        }
+
+        .opti-section {
+            background: linear-gradient(145deg, #161b22, #0d1117);
+            border: 1px solid var(--accent);
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        .credits {
+            font-size: 0.8em;
+            text-align: right;
+            margin-bottom: 10px;
+            color: #8b949e;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.7em;
+            color: #484f58;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>REALDXT OS</h1>
+    <p>Ultimate Gaming Optimization Toolkit</p>
+</header>
+
+<div class="container">
+    <div class="section-title">Esenciales de Juego</div>
+    <div class="grid">
+        <a href="https://www.roblox.com" target="_blank" class="btn">Descargar Roblox</a>
+        <a href="https://www.steam.com" target="_blank" class="btn">Steam</a>
+        <a href="https://www.epicgames.com" target="_blank" class="btn">Epic Games</a>
+    </div>
+
+    <div class="section-title">Juegos Opti</div>
+    <div class="opti-section">
+        <div class="credits">Desarrollado por: <strong>Optiprojects</strong></div>
+        <div class="grid">
+            <a href="https://www.mediafire.com/file/8cdpysjposx0niz/" target="_blank" class="btn">Opticraft Legacy</a>
+            <a href="https://www.mediafire.com/file/bwtwsz4gtlh37af" target="_blank" class="btn">Lossless Scaling</a>
+            <a href="https://gofile.io/d/pzzk2B" target="_blank" class="btn">Optiandroid</a>
+            <a href="https://cuttlinks.com/iiVmS" target="_blank" class="btn">GTA OPTI</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    RealDXT OS &copy; 2026 | Optimization Toolkit
+</footer>
+
+</body>
+</html>
